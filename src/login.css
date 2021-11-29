@@ -1,0 +1,19 @@
+.left{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: relative;
+
+}
+#heading{
+    margin-bottom: 30px;
+}
+.credentials{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#email_field{
+    margin-bottom: 5px;
+}
