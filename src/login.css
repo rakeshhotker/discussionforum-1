@@ -1,15 +1,45 @@
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+#Login{
+  
+    border: none;
+
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    color: #3751FE;
+}
 .left{
     width: 300px;
-    margin-left: 50px;
+    
     margin-top: 10%;
     margin-left: 15%;
-    position: relative;
-
+    
+}
+.right{
+    width: 300px;
+    margin-left:60%;
+    margin-right: 15%;
+    margin-top: 0%;
+    
+   
+}
+#login
+{
+    color: #3751FE
 }
 #heading{
     margin-bottom: 30px;
+    color: #3751FE;
 }
 .credentials{
+    align-content: flex-start;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
