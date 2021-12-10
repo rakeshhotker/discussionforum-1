@@ -5,15 +5,15 @@ function Login() {
     return (
         <div>
             <div class="left">
-                <div id="heading">
-                    <h3>Vasavi Connect</h3>
+                <div id="heading" align="left">
+                    <h2 id="main_name">Vasavi Connect</h2>
                     <p>A place to meet like minded peers...</p>
                 </div>
-                <div id="greeting">
+                <div id="greeting" align="left">
                     <p>Welcome back! Please login to your account</p>
                 </div>
                 <div>
-                    <h5>Login</h5>
+                    <h5 id ="login" align="left" >Login</h5>
                     <div>
                         <div>
 
@@ -42,8 +42,13 @@ function Login() {
                     </div>
                 </div>
             </div>
+            <div id="vertical-line" align="center"></div>
             <div class="right">
-
+                <div class="navigation">
+                    <h3 id="home_nav">Home</h3>
+                    <h3 id="About_nav">About us</h3>
+                    <h3 id="our_college">Our College</h3>
+                </div>
 
             </div>
         
